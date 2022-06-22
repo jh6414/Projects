@@ -1,0 +1,50 @@
+/* CSS Style Sheet */
+/*  -------------  ELEMENT  ---------------*/
+#top { 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	border-top: none; 
+	border-right: none; 
+	border-bottom: none; 
+	border-left: none;
+	color: #333333; 
+	background-color: #EEEEEE; 
+	width: 110%; 
+	height: 2.6em; 
+	font-family: Georgia, "Times New Roman", Arial, sans-serif; 
+	font-size: large; 
+	z-index: 20000; 
+	margin-left: -2%;
+	padding-left: 0%;
+}
+
+#top li { 
+	display: inline; 
+	padding-top: 0; 
+	padding-right: 0; 
+	padding-bottom: 0; 
+	padding-left: 5%;  
+}
+body { 
+	font-family: "Times New Roman", Arial, Georgia, sans-serif;
+	line-height: 125%; 
+	font-size: medium; 
+	color: #000000; 
+	background-color: #FDFFFF; 
+	top: 0;
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	word-spacing: .14em;
+	margin-top: 0; 
+	margin-right: 0; 
+	margin-bottom: 0; 
+	margin-left: 0;
+}
+p {
+	margin-top: 4%; 
+	margin-right: 0; 
+	margin-bottom: 0; 
+	margin-left: 20%;
+}

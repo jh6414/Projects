@@ -1,0 +1,111 @@
+/* CSS Style Sheet */
+/*  -------------  ELEMENT  ---------------*/
+table { 
+	border-collapse: collapse; 
+	margin-top: 1em; 
+	margin-right: 0%; 
+	margin-bottom: 0; 
+	margin-left: 10%;
+	width: 30em;
+	text-align: left;
+	position: relative; 
+}
+td { 
+	padding-left: 0.4em; 
+	text-align: left;
+}
+th { 
+	padding-left: 0.2em; 
+	text-align: left;
+}
+thead { 
+	padding-left: 0.2em; 
+	text-align: left;
+}
+#top { 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	border-top: none; 
+	border-right: none; 
+	border-bottom: none; 
+	border-left: none;
+	color: #333333; 
+	background-color: #EEEEEE; 
+	width: 110%; 
+	height: 2.6em; 
+	font-family: Georgia, "Times New Roman", Arial, sans-serif; 
+	font-size: large; 
+	z-index: 20000; 
+	margin-left: -2%;
+	padding-left: 0%;
+}
+
+#top li { 
+	display: inline; 
+	padding-top: 0; 
+	padding-right: 0; 
+	padding-bottom: 0; 
+	padding-left: 5%;  
+}
+#marginleft { 
+	position: fixed; 
+	left: 0; 
+	top: 0; 
+	height: 100%; 
+	width: 8%; 
+	background-color: #CCCCCC;
+	border-top: none; 
+	border-right: none; 
+	border-bottom: none; 
+	border-left: none;
+	z-index: 30; 
+}
+#first {
+	font-size: 30px;  
+	position: relative; 
+	margin-top: 2.5em; 
+	margin-right: 10%; 
+	margin-bottom: 0; 
+	margin-left: 10%;
+}
+p { 
+	position: relative; 
+	margin-top: 1em; 
+	margin-right: 10%; 
+	margin-bottom: 0; 
+	margin-left: 10%;
+}
+body { 
+	font-family: "Times New Roman", Arial, Georgia, sans-serif;
+	line-height: 125%; 
+	font-size: medium; 
+	color: #000000; 
+	background-color: #FDFFFF; 
+	top: 0;
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	word-spacing: .14em;
+	margin-top: 0; 
+	margin-right: 0; 
+	margin-bottom: 0; 
+	margin-left: 0;
+}
+form { 
+	margin-top: 2em; 
+	margin-right: 10%; 
+	margin-bottom: 5em; 
+	margin-left: 10%; 
+	line-height: 150%; 
+}
+#notAtHome {
+	font-size: 25px; 
+	margin-top: 2em; 
+	margin-right: 10%; 
+	margin-bottom: 0; 
+	margin-left: 10%;
+}
+img {
+	border: 2px solid black;
+}

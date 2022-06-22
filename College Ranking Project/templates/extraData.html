@@ -1,0 +1,42 @@
+
+		<!DOCTYPE html>
+		<html>
+			<head>
+				<title>Interactive + Read API</title>
+				<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}"/>
+			</head>
+			<body>
+				<div id="top">
+					<ol>
+						<li><a href="../collegeRank">Jack's News Ranker</a></li>
+						<li><a href="../otherStuff/">Survey</a></li>
+						<li>Interactive + Read API</li>
+					</ol>
+				</div>
+				<div id="marginleft">
+				</div>
+				<p  id="first">Interactive.</p>
+				<div>
+					<form method="post" action="{{ url_for('extraData') }}">
+						<fieldset>
+							<legend>Ian Stuff</legend>
+							<br/>
+							<label for="stateCollege" class="addCollege">Insert state initials and we'll print out the colleges.</label>
+							<input type="text" name="stateCollege" id="stateCollege"/>
+							
+							<br/><br/>
+							<label for="collegeCost" class="addCollege">Compare College Cost (Separate by commas)</label>
+							<input type="text" name="collegeCost" id="collegeCost"/>
+							
+							<br/><br/>
+							
+							<div class="buttonarea">
+								<input type="submit" value="Run Program"/>
+							<br/>
+						</fieldset>
+					</form>
+				</div>	
+				<p>From reading the api (https://api.data.gov/ed/collegescorecard/v1/schools.json), I gathered that the largest college is Saint Louis Community College with 21446 students</p>
+			</body>
+		</html>
+		

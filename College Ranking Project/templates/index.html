@@ -1,0 +1,1767 @@
+
+		<!DOCTYPE html>
+		<html lang="en">
+			<head>
+				<meta charset="utf-8">
+				<title>News Ranker</title>
+				<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}"/>
+			</head>
+			<body>
+				<div id="top">
+					<ol>
+						<li>News Ranker</li>
+						<li><a href="./survey/">Survey</a></li>
+						<li><a href="./readAPI/">Interactive + Read API</a></li>
+						<li><a href="./map/">Map</a></li>
+					</ol>
+				</div>
+				<div id="marginleft">
+				</div>
+				<p id="first">The top college is Stony Brook University SUNY</p>
+				<table border="1" class="dataframe News Rank">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>College</th>
+      <th>News Score</th>
+    </tr>
+    <tr>
+      <th>Rank</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Stony Brook University SUNY</td>
+      <td>100.000000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Wittenberg University</td>
+      <td>83.276848</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Appalachian State University</td>
+      <td>82.510836</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Virginia Tech</td>
+      <td>81.574229</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>University of Arkansas</td>
+      <td>69.209281</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Rensselaer Polytechnic Institute</td>
+      <td>68.020181</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Morehead State University</td>
+      <td>63.094628</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>College of William and Mary</td>
+      <td>62.752112</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>University of North Carolina Chapel Hill</td>
+      <td>62.229759</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Rochester Institute of Technology</td>
+      <td>62.188187</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Colby College</td>
+      <td>60.695942</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>University of Texas at Arlington</td>
+      <td>60.540423</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Illinois State University</td>
+      <td>60.474844</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>University at Buffalo SUNY</td>
+      <td>60.039607</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Pennsylvania State University</td>
+      <td>59.093352</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Montana State University Bozeman</td>
+      <td>58.653998</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Georgia Institute of Technology</td>
+      <td>58.613086</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Wake Forest University</td>
+      <td>58.300395</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>University of Iowa University of Kansas</td>
+      <td>55.511951</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Baylor University</td>
+      <td>55.491932</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>State University of New York SUNY at Oswego</td>
+      <td>55.367758</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Robert Morris College</td>
+      <td>55.148238</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Colorado School of Mines</td>
+      <td>55.095453</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Tarleton State University</td>
+      <td>54.920358</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>New Jersey Institute of Technology</td>
+      <td>54.835004</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>LeTourneau University</td>
+      <td>54.395882</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Virginia Wesleyan College</td>
+      <td>53.820833</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>State University of New York SUNY at Buffalo</td>
+      <td>52.975820</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Cal Poly San Luis Obispo</td>
+      <td>52.688304</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>St. Olaf College</td>
+      <td>52.578214</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Minnesota State University Mankato</td>
+      <td>51.291661</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>DePauw University</td>
+      <td>50.699088</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>University of North Carolina at Wilmington</td>
+      <td>50.548481</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Juniata College</td>
+      <td>50.358935</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Idaho State University</td>
+      <td>50.355277</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Western Carolina University</td>
+      <td>50.283771</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Worcester Polytechnic Institute</td>
+      <td>49.527679</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Pratt Institute</td>
+      <td>49.512918</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Fitchburg State College</td>
+      <td>49.224703</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Randolph-Macon College</td>
+      <td>48.877589</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Lehigh University</td>
+      <td>48.504987</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Princeton University</td>
+      <td>48.403850</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>South Dakota School of Mines &amp; Technology</td>
+      <td>48.156267</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>St. John's University New York</td>
+      <td>47.651666</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Gustavus Adolphus College</td>
+      <td>47.533279</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>Saint Leo University</td>
+      <td>46.981060</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Bates College</td>
+      <td>46.733087</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Northern Illinois University</td>
+      <td>46.679209</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Jacksonville University</td>
+      <td>46.392002</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Mississippi State University</td>
+      <td>46.241602</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>Stony Brook University</td>
+      <td>46.103526</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>University of Arkansas Monticello</td>
+      <td>45.827354</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>University of California Irvine</td>
+      <td>45.822386</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>Washington and Lee University</td>
+      <td>45.483302</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>University of Massachusetts Lowell</td>
+      <td>45.414799</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>California Institute of Technology</td>
+      <td>45.255413</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>Missouri State University</td>
+      <td>45.107208</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>Wesleyan University</td>
+      <td>45.053655</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>Black Hills State University</td>
+      <td>45.003650</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>Colorado College</td>
+      <td>44.891417</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>University of Southern Maine</td>
+      <td>44.673718</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>Montana State University Billings</td>
+      <td>44.654138</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>North Dakota State University</td>
+      <td>44.585116</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>Lee University</td>
+      <td>44.399213</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>Bowdoin College</td>
+      <td>44.170929</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>Indiana Wesleyan University</td>
+      <td>43.994944</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>Mississippi College</td>
+      <td>43.983099</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>Whitman College</td>
+      <td>43.901297</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>Ithaca College</td>
+      <td>43.821129</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>University of Minnesota Twin Cities</td>
+      <td>43.775939</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>Ursinus College</td>
+      <td>43.716447</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>Drexel University</td>
+      <td>43.713080</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Eastern Michigan University</td>
+      <td>43.697690</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Wentworth Institute of Technology</td>
+      <td>43.678885</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>University of Wyoming</td>
+      <td>43.659676</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>University of Tulsa</td>
+      <td>43.590924</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>Denison University</td>
+      <td>43.514941</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>West Virginia University</td>
+      <td>43.156747</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>University of Oregon</td>
+      <td>43.105595</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>Smith College</td>
+      <td>42.935051</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>Purdue University</td>
+      <td>42.853492</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>Texas Christian University</td>
+      <td>42.808413</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>University of Maine</td>
+      <td>42.698155</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>Southern Illinois University Carbondale</td>
+      <td>42.483710</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>Bucknell University</td>
+      <td>42.155340</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>University of Massachusetts Dartmouth</td>
+      <td>42.028474</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>North Carolina Agricultural and Technical State University</td>
+      <td>42.011500</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>University of Nebraska</td>
+      <td>41.987292</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>Union College</td>
+      <td>41.913262</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>State University of New York SUNY at Fredonia</td>
+      <td>41.758256</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>University of California Davis</td>
+      <td>41.613313</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>Stern School of Business</td>
+      <td>41.558091</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>State University of New York SUNY at Farmingdale</td>
+      <td>41.283509</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>California State University Northridge</td>
+      <td>41.163827</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>Pittsburg State University</td>
+      <td>41.053589</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>University of California Riverside</td>
+      <td>41.048740</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>George Mason University</td>
+      <td>40.560112</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>University of Montana</td>
+      <td>40.079746</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>Adelphi University</td>
+      <td>39.884681</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>California State University Sacramento</td>
+      <td>39.825726</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>La Salle University</td>
+      <td>39.405441</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>Florida International University</td>
+      <td>39.385890</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>University of California Santa Cruz</td>
+      <td>39.263161</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>University of California Santa Barbara</td>
+      <td>38.969547</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>Colorado State University</td>
+      <td>38.951363</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>Lamar University</td>
+      <td>38.819513</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>Western Michigan University</td>
+      <td>38.801148</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>Emory University</td>
+      <td>38.451469</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>Hobart and William Smith</td>
+      <td>38.311306</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>Fort Lewis College</td>
+      <td>38.299539</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>Seton Hall University</td>
+      <td>38.202106</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>Kansas State University</td>
+      <td>38.177532</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>Thomas Aquinas College</td>
+      <td>38.159104</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>University of Memphis</td>
+      <td>37.945093</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>University of Nevada Reno</td>
+      <td>37.816760</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>University of Georgia</td>
+      <td>37.666495</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>University of Pennsylvania</td>
+      <td>37.518955</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>Hamilton College</td>
+      <td>37.508316</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>Davenport University</td>
+      <td>37.478484</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>Rider University</td>
+      <td>37.273162</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>Middlebury College</td>
+      <td>37.215757</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>University of Nevada Las Vegas</td>
+      <td>37.205185</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>Illinois Institute of Technology</td>
+      <td>36.671232</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>University of Colorado Boulder</td>
+      <td>36.634575</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>Hofstra University</td>
+      <td>36.212099</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>Southern Utah University</td>
+      <td>36.208691</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>Florida State University</td>
+      <td>36.180846</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>Georgia State University</td>
+      <td>36.119356</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>Ball State University</td>
+      <td>35.969863</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>College of the Holy Cross</td>
+      <td>35.951921</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>University of Washington</td>
+      <td>35.924312</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>South Dakota State University</td>
+      <td>35.455949</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>Carnegie Mellon University</td>
+      <td>35.345567</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>North Carolina State University</td>
+      <td>35.270714</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>Massachusetts Institute of Technology</td>
+      <td>35.172702</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>University of Alaska Anchorage</td>
+      <td>35.082771</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>University of Alabama at Huntsville</td>
+      <td>35.019491</td>
+    </tr>
+    <tr>
+      <th>138</th>
+      <td>Providence College</td>
+      <td>35.002193</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>Villanova University</td>
+      <td>34.892287</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>Colgate University</td>
+      <td>34.819090</td>
+    </tr>
+    <tr>
+      <th>141</th>
+      <td>Dartmouth College</td>
+      <td>34.564911</td>
+    </tr>
+    <tr>
+      <th>142</th>
+      <td>Johns Hopkins University</td>
+      <td>34.553263</td>
+    </tr>
+    <tr>
+      <th>143</th>
+      <td>University of Louisiana at Lafayette</td>
+      <td>34.475304</td>
+    </tr>
+    <tr>
+      <th>144</th>
+      <td>Southern Methodist University</td>
+      <td>34.469007</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>Indiana University Bloomington</td>
+      <td>34.332348</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>Tennessee Technological University</td>
+      <td>34.288801</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>Bowling Green State University</td>
+      <td>34.284423</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>East Carolina University</td>
+      <td>34.247232</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>Florida Atlantic University</td>
+      <td>34.156410</td>
+    </tr>
+    <tr>
+      <th>150</th>
+      <td>State University of New York SUNY at Potsdam</td>
+      <td>34.143403</td>
+    </tr>
+    <tr>
+      <th>151</th>
+      <td>New Mexico State University</td>
+      <td>33.832649</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>Arizona State University</td>
+      <td>33.761699</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>Auburn University</td>
+      <td>33.631810</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>University of Rhode Island</td>
+      <td>33.539821</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>New Mexico Institute of Mining and Technology</td>
+      <td>33.503917</td>
+    </tr>
+    <tr>
+      <th>156</th>
+      <td>University of South Florida</td>
+      <td>33.240101</td>
+    </tr>
+    <tr>
+      <th>157</th>
+      <td>Tulane University</td>
+      <td>33.171529</td>
+    </tr>
+    <tr>
+      <th>158</th>
+      <td>Virginia Commonwealth University</td>
+      <td>33.154756</td>
+    </tr>
+    <tr>
+      <th>159</th>
+      <td>Fairleigh Dickinson University</td>
+      <td>33.062492</td>
+    </tr>
+    <tr>
+      <th>160</th>
+      <td>Dowling College</td>
+      <td>33.043082</td>
+    </tr>
+    <tr>
+      <th>161</th>
+      <td>Oklahoma State University</td>
+      <td>33.028358</td>
+    </tr>
+    <tr>
+      <th>162</th>
+      <td>California State University Dominguez Hills</td>
+      <td>33.027267</td>
+    </tr>
+    <tr>
+      <th>163</th>
+      <td>University of Rochester</td>
+      <td>32.991864</td>
+    </tr>
+    <tr>
+      <th>164</th>
+      <td>Arkansas State University</td>
+      <td>32.888990</td>
+    </tr>
+    <tr>
+      <th>165</th>
+      <td>University of Akron</td>
+      <td>32.880303</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>Gozaga University</td>
+      <td>32.783368</td>
+    </tr>
+    <tr>
+      <th>167</th>
+      <td>State University of New York SUNY at Oneonta</td>
+      <td>32.757466</td>
+    </tr>
+    <tr>
+      <th>168</th>
+      <td>Columbia University</td>
+      <td>32.713593</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>Skidmore College</td>
+      <td>32.603716</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>Austin Peay State University</td>
+      <td>32.473826</td>
+    </tr>
+    <tr>
+      <th>171</th>
+      <td>College of Eastern Idaho</td>
+      <td>32.449855</td>
+    </tr>
+    <tr>
+      <th>172</th>
+      <td>Stevens Institute of Technology</td>
+      <td>32.225827</td>
+    </tr>
+    <tr>
+      <th>173</th>
+      <td>Vanderbilt University</td>
+      <td>32.194528</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>California State University Stanislaus</td>
+      <td>32.062766</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>University of Arizona</td>
+      <td>32.021478</td>
+    </tr>
+    <tr>
+      <th>176</th>
+      <td>North Carolina State University Raleigh</td>
+      <td>31.934776</td>
+    </tr>
+    <tr>
+      <th>177</th>
+      <td>Utah Valley State College</td>
+      <td>31.902485</td>
+    </tr>
+    <tr>
+      <th>178</th>
+      <td>Miami University Oxford</td>
+      <td>31.894166</td>
+    </tr>
+    <tr>
+      <th>179</th>
+      <td>Hillsborough Community College</td>
+      <td>31.660048</td>
+    </tr>
+    <tr>
+      <th>180</th>
+      <td>Thaddeus Stevens College of Technology</td>
+      <td>31.591860</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>Pepperdine University</td>
+      <td>31.459701</td>
+    </tr>
+    <tr>
+      <th>182</th>
+      <td>University of New Haven</td>
+      <td>31.446513</td>
+    </tr>
+    <tr>
+      <th>183</th>
+      <td>University of Kentucky</td>
+      <td>31.311023</td>
+    </tr>
+    <tr>
+      <th>184</th>
+      <td>University of Oklahoma</td>
+      <td>31.231370</td>
+    </tr>
+    <tr>
+      <th>185</th>
+      <td>Eastern Washington University</td>
+      <td>31.055401</td>
+    </tr>
+    <tr>
+      <th>186</th>
+      <td>Cse Western Reserve University</td>
+      <td>30.980435</td>
+    </tr>
+    <tr>
+      <th>187</th>
+      <td>Gonzaga University</td>
+      <td>30.698328</td>
+    </tr>
+    <tr>
+      <th>188</th>
+      <td>Cleveland State University</td>
+      <td>30.664761</td>
+    </tr>
+    <tr>
+      <th>189</th>
+      <td>Brown University</td>
+      <td>30.555850</td>
+    </tr>
+    <tr>
+      <th>190</th>
+      <td>University of Massachusetts Amherst</td>
+      <td>30.536994</td>
+    </tr>
+    <tr>
+      <th>191</th>
+      <td>Davidson College</td>
+      <td>30.513314</td>
+    </tr>
+    <tr>
+      <th>192</th>
+      <td>University of Michigan Ann Arbor</td>
+      <td>30.427715</td>
+    </tr>
+    <tr>
+      <th>193</th>
+      <td>Oklahoma City University</td>
+      <td>30.386362</td>
+    </tr>
+    <tr>
+      <th>194</th>
+      <td>University of Hawaii</td>
+      <td>30.339876</td>
+    </tr>
+    <tr>
+      <th>195</th>
+      <td>Case Western Reserve University</td>
+      <td>30.325102</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>State University of New York SUNY at Plattsburgh</td>
+      <td>30.277576</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>University of New Hampshire</td>
+      <td>30.143607</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>University of Central Florida</td>
+      <td>30.110686</td>
+    </tr>
+    <tr>
+      <th>199</th>
+      <td>Lewis &amp; Clark College</td>
+      <td>30.109146</td>
+    </tr>
+    <tr>
+      <th>200</th>
+      <td>Virginia Polytechnic Institute and State University</td>
+      <td>30.010376</td>
+    </tr>
+    <tr>
+      <th>201</th>
+      <td>Utah State University</td>
+      <td>29.998646</td>
+    </tr>
+    <tr>
+      <th>202</th>
+      <td>Wellesley College</td>
+      <td>29.979859</td>
+    </tr>
+    <tr>
+      <th>203</th>
+      <td>University of Nebraska at Omaha</td>
+      <td>29.937116</td>
+    </tr>
+    <tr>
+      <th>204</th>
+      <td>Sacred Heart University</td>
+      <td>29.901190</td>
+    </tr>
+    <tr>
+      <th>205</th>
+      <td>Tufts University</td>
+      <td>29.742074</td>
+    </tr>
+    <tr>
+      <th>206</th>
+      <td>Saint Louis University</td>
+      <td>29.713219</td>
+    </tr>
+    <tr>
+      <th>207</th>
+      <td>Loloya Marymount Univeristy</td>
+      <td>29.673145</td>
+    </tr>
+    <tr>
+      <th>208</th>
+      <td>University of Richmond</td>
+      <td>29.517986</td>
+    </tr>
+    <tr>
+      <th>209</th>
+      <td>Gettysburg College</td>
+      <td>29.492560</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>Widener University</td>
+      <td>29.466278</td>
+    </tr>
+    <tr>
+      <th>211</th>
+      <td>University of California San Diego</td>
+      <td>29.367834</td>
+    </tr>
+    <tr>
+      <th>212</th>
+      <td>Howard University</td>
+      <td>29.088834</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>Stanford University</td>
+      <td>28.774760</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>University of Mississippi</td>
+      <td>28.708319</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>Lakeshore Technical College</td>
+      <td>28.650674</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>University of Tennessee</td>
+      <td>28.634570</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>Harvey Mudd College</td>
+      <td>28.331799</td>
+    </tr>
+    <tr>
+      <th>218</th>
+      <td>Ohio State University</td>
+      <td>28.289290</td>
+    </tr>
+    <tr>
+      <th>219</th>
+      <td>Rutgers University New Brunswick</td>
+      <td>28.270965</td>
+    </tr>
+    <tr>
+      <th>220</th>
+      <td>Washington University in St. Louis</td>
+      <td>28.125796</td>
+    </tr>
+    <tr>
+      <th>221</th>
+      <td>University of Connecticut</td>
+      <td>28.034947</td>
+    </tr>
+    <tr>
+      <th>222</th>
+      <td>University of Idaho</td>
+      <td>27.730449</td>
+    </tr>
+    <tr>
+      <th>223</th>
+      <td>University of Vermont</td>
+      <td>27.569580</td>
+    </tr>
+    <tr>
+      <th>224</th>
+      <td>Mercy College</td>
+      <td>27.541974</td>
+    </tr>
+    <tr>
+      <th>225</th>
+      <td>Fashion Institute of Technology</td>
+      <td>27.439555</td>
+    </tr>
+    <tr>
+      <th>226</th>
+      <td>Carleton College</td>
+      <td>27.359468</td>
+    </tr>
+    <tr>
+      <th>227</th>
+      <td>San Francisco State University</td>
+      <td>27.153315</td>
+    </tr>
+    <tr>
+      <th>228</th>
+      <td>University of Texas Austin</td>
+      <td>26.934158</td>
+    </tr>
+    <tr>
+      <th>229</th>
+      <td>Yale University</td>
+      <td>26.647230</td>
+    </tr>
+    <tr>
+      <th>230</th>
+      <td>Washington State University</td>
+      <td>26.617978</td>
+    </tr>
+    <tr>
+      <th>231</th>
+      <td>Penn State Harrisburg</td>
+      <td>26.604339</td>
+    </tr>
+    <tr>
+      <th>232</th>
+      <td>Brandeis University</td>
+      <td>26.335682</td>
+    </tr>
+    <tr>
+      <th>233</th>
+      <td>Regis University</td>
+      <td>25.944884</td>
+    </tr>
+    <tr>
+      <th>234</th>
+      <td>Amherst College</td>
+      <td>25.927459</td>
+    </tr>
+    <tr>
+      <th>235</th>
+      <td>Michigan State University</td>
+      <td>25.859182</td>
+    </tr>
+    <tr>
+      <th>236</th>
+      <td>Moravian College</td>
+      <td>25.856374</td>
+    </tr>
+    <tr>
+      <th>237</th>
+      <td>University of Wisconsin</td>
+      <td>25.758022</td>
+    </tr>
+    <tr>
+      <th>238</th>
+      <td>Lafayette College</td>
+      <td>25.748310</td>
+    </tr>
+    <tr>
+      <th>239</th>
+      <td>University of Illinois at Chicago</td>
+      <td>25.747888</td>
+    </tr>
+    <tr>
+      <th>240</th>
+      <td>Park University</td>
+      <td>25.730886</td>
+    </tr>
+    <tr>
+      <th>241</th>
+      <td>University of Notre Dame</td>
+      <td>25.689855</td>
+    </tr>
+    <tr>
+      <th>242</th>
+      <td>University of Delaware</td>
+      <td>25.675312</td>
+    </tr>
+    <tr>
+      <th>243</th>
+      <td>University of Miami</td>
+      <td>25.598243</td>
+    </tr>
+    <tr>
+      <th>244</th>
+      <td>State University of New York SUNY at Geneseo</td>
+      <td>25.540874</td>
+    </tr>
+    <tr>
+      <th>245</th>
+      <td>Iowa State University</td>
+      <td>25.372386</td>
+    </tr>
+    <tr>
+      <th>246</th>
+      <td>California Institute of Technology California State University Chico</td>
+      <td>25.359142</td>
+    </tr>
+    <tr>
+      <th>247</th>
+      <td>Long Island University</td>
+      <td>25.252210</td>
+    </tr>
+    <tr>
+      <th>248</th>
+      <td>University of Maryland Baltimore County</td>
+      <td>25.194588</td>
+    </tr>
+    <tr>
+      <th>249</th>
+      <td>University of Pittsburgh</td>
+      <td>25.180276</td>
+    </tr>
+    <tr>
+      <th>250</th>
+      <td>University of Colorado Denver</td>
+      <td>25.152479</td>
+    </tr>
+    <tr>
+      <th>251</th>
+      <td>University of Texas at San Antonio</td>
+      <td>25.127342</td>
+    </tr>
+    <tr>
+      <th>252</th>
+      <td>Harvard University</td>
+      <td>25.078660</td>
+    </tr>
+    <tr>
+      <th>253</th>
+      <td>Philadelphia University</td>
+      <td>24.960413</td>
+    </tr>
+    <tr>
+      <th>254</th>
+      <td>Elon University</td>
+      <td>24.757931</td>
+    </tr>
+    <tr>
+      <th>255</th>
+      <td>University of Virginia</td>
+      <td>24.731095</td>
+    </tr>
+    <tr>
+      <th>256</th>
+      <td>University of Missouri</td>
+      <td>24.607892</td>
+    </tr>
+    <tr>
+      <th>257</th>
+      <td>Polytechnic University of New York</td>
+      <td>24.438787</td>
+    </tr>
+    <tr>
+      <th>258</th>
+      <td>Northeastern University</td>
+      <td>24.389601</td>
+    </tr>
+    <tr>
+      <th>259</th>
+      <td>University of Illinois at Urbana Champaign</td>
+      <td>24.293971</td>
+    </tr>
+    <tr>
+      <th>260</th>
+      <td>Roger Williams University</td>
+      <td>24.277502</td>
+    </tr>
+    <tr>
+      <th>261</th>
+      <td>Cornell University</td>
+      <td>24.212069</td>
+    </tr>
+    <tr>
+      <th>262</th>
+      <td>California State University Long Beach</td>
+      <td>24.117035</td>
+    </tr>
+    <tr>
+      <th>263</th>
+      <td>Seattle University</td>
+      <td>24.066048</td>
+    </tr>
+    <tr>
+      <th>264</th>
+      <td>Franklin and Marshall College</td>
+      <td>24.030892</td>
+    </tr>
+    <tr>
+      <th>265</th>
+      <td>Western Washington University</td>
+      <td>23.956737</td>
+    </tr>
+    <tr>
+      <th>266</th>
+      <td>State University of New York SUNY at Albany</td>
+      <td>23.866662</td>
+    </tr>
+    <tr>
+      <th>267</th>
+      <td>Humboldt State University</td>
+      <td>23.757590</td>
+    </tr>
+    <tr>
+      <th>268</th>
+      <td>University of Alabama at Birmingham</td>
+      <td>23.688283</td>
+    </tr>
+    <tr>
+      <th>269</th>
+      <td>Quinnipiac University</td>
+      <td>23.603391</td>
+    </tr>
+    <tr>
+      <th>270</th>
+      <td>Fordham University</td>
+      <td>23.399201</td>
+    </tr>
+    <tr>
+      <th>271</th>
+      <td>University of New Mexico</td>
+      <td>23.290975</td>
+    </tr>
+    <tr>
+      <th>272</th>
+      <td>St. Cloud State University</td>
+      <td>22.796620</td>
+    </tr>
+    <tr>
+      <th>273</th>
+      <td>Cooper Union</td>
+      <td>22.403301</td>
+    </tr>
+    <tr>
+      <th>274</th>
+      <td>Brigham Young University</td>
+      <td>22.192877</td>
+    </tr>
+    <tr>
+      <th>275</th>
+      <td>Santa Clara University</td>
+      <td>22.151522</td>
+    </tr>
+    <tr>
+      <th>276</th>
+      <td>Wayne State University</td>
+      <td>22.147342</td>
+    </tr>
+    <tr>
+      <th>277</th>
+      <td>Mount Holyoke College</td>
+      <td>22.075893</td>
+    </tr>
+    <tr>
+      <th>278</th>
+      <td>University of North Dakota</td>
+      <td>21.999549</td>
+    </tr>
+    <tr>
+      <th>279</th>
+      <td>Clemson University</td>
+      <td>21.886510</td>
+    </tr>
+    <tr>
+      <th>280</th>
+      <td>Duke University</td>
+      <td>21.873719</td>
+    </tr>
+    <tr>
+      <th>281</th>
+      <td>Boston College</td>
+      <td>21.825059</td>
+    </tr>
+    <tr>
+      <th>282</th>
+      <td>California State University East Bay</td>
+      <td>21.770305</td>
+    </tr>
+    <tr>
+      <th>283</th>
+      <td>Oregon State University</td>
+      <td>21.748132</td>
+    </tr>
+    <tr>
+      <th>284</th>
+      <td>Siena College</td>
+      <td>21.586320</td>
+    </tr>
+    <tr>
+      <th>285</th>
+      <td>San Jose State University</td>
+      <td>21.572508</td>
+    </tr>
+    <tr>
+      <th>286</th>
+      <td>DePaul University</td>
+      <td>21.514515</td>
+    </tr>
+    <tr>
+      <th>287</th>
+      <td>Florida Metropolitan University</td>
+      <td>21.487856</td>
+    </tr>
+    <tr>
+      <th>288</th>
+      <td>Pace University</td>
+      <td>21.393043</td>
+    </tr>
+    <tr>
+      <th>289</th>
+      <td>Rice University</td>
+      <td>21.378273</td>
+    </tr>
+    <tr>
+      <th>290</th>
+      <td>Marquette University</td>
+      <td>21.337235</td>
+    </tr>
+    <tr>
+      <th>291</th>
+      <td>University of Massachusetts Boston</td>
+      <td>21.149328</td>
+    </tr>
+    <tr>
+      <th>292</th>
+      <td>Williams College</td>
+      <td>20.761175</td>
+    </tr>
+    <tr>
+      <th>293</th>
+      <td>Dallas Baptist University</td>
+      <td>20.730712</td>
+    </tr>
+    <tr>
+      <th>294</th>
+      <td>Reed College</td>
+      <td>20.710332</td>
+    </tr>
+    <tr>
+      <th>295</th>
+      <td>Niagara University</td>
+      <td>20.590239</td>
+    </tr>
+    <tr>
+      <th>296</th>
+      <td>University of Puget Sound</td>
+      <td>20.566321</td>
+    </tr>
+    <tr>
+      <th>297</th>
+      <td>Franciscan University</td>
+      <td>20.235170</td>
+    </tr>
+    <tr>
+      <th>298</th>
+      <td>Portland State University</td>
+      <td>20.107470</td>
+    </tr>
+    <tr>
+      <th>299</th>
+      <td>Rutgers University</td>
+      <td>20.009395</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>California State University Fullerton</td>
+      <td>19.995293</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>Kent State University</td>
+      <td>19.726079</td>
+    </tr>
+    <tr>
+      <th>302</th>
+      <td>University of San Diego</td>
+      <td>19.490280</td>
+    </tr>
+    <tr>
+      <th>303</th>
+      <td>Northwestern University</td>
+      <td>19.239919</td>
+    </tr>
+    <tr>
+      <th>304</th>
+      <td>San Diego State University</td>
+      <td>19.186745</td>
+    </tr>
+    <tr>
+      <th>305</th>
+      <td>George Washington University</td>
+      <td>18.673456</td>
+    </tr>
+    <tr>
+      <th>306</th>
+      <td>Occidental College</td>
+      <td>18.530431</td>
+    </tr>
+    <tr>
+      <th>307</th>
+      <td>Boston University</td>
+      <td>18.515095</td>
+    </tr>
+    <tr>
+      <th>308</th>
+      <td>Ohio University</td>
+      <td>18.445896</td>
+    </tr>
+    <tr>
+      <th>309</th>
+      <td>Clark University</td>
+      <td>18.407771</td>
+    </tr>
+    <tr>
+      <th>310</th>
+      <td>University of North Carolina at Charlotte</td>
+      <td>18.066652</td>
+    </tr>
+    <tr>
+      <th>311</th>
+      <td>University of Florida</td>
+      <td>17.740721</td>
+    </tr>
+    <tr>
+      <th>312</th>
+      <td>University of South Carolina</td>
+      <td>17.722838</td>
+    </tr>
+    <tr>
+      <th>313</th>
+      <td>Binghamton University</td>
+      <td>17.472683</td>
+    </tr>
+    <tr>
+      <th>314</th>
+      <td>University of Houston</td>
+      <td>17.046017</td>
+    </tr>
+    <tr>
+      <th>315</th>
+      <td>Vassar College</td>
+      <td>17.015436</td>
+    </tr>
+    <tr>
+      <th>316</th>
+      <td>Boise State University</td>
+      <td>16.901027</td>
+    </tr>
+    <tr>
+      <th>317</th>
+      <td>Grinnell College</td>
+      <td>16.378867</td>
+    </tr>
+    <tr>
+      <th>318</th>
+      <td>Bradley University</td>
+      <td>16.258457</td>
+    </tr>
+    <tr>
+      <th>319</th>
+      <td>Pomona College</td>
+      <td>16.105648</td>
+    </tr>
+    <tr>
+      <th>320</th>
+      <td>Texas A&amp;M College Station</td>
+      <td>15.461964</td>
+    </tr>
+    <tr>
+      <th>321</th>
+      <td>Duquesne University</td>
+      <td>15.450620</td>
+    </tr>
+    <tr>
+      <th>322</th>
+      <td>Suffolk University</td>
+      <td>15.438582</td>
+    </tr>
+    <tr>
+      <th>323</th>
+      <td>Swarthmore College</td>
+      <td>15.266495</td>
+    </tr>
+    <tr>
+      <th>324</th>
+      <td>University of Maryland College Park</td>
+      <td>15.147012</td>
+    </tr>
+    <tr>
+      <th>325</th>
+      <td>University of Toledo</td>
+      <td>15.127755</td>
+    </tr>
+    <tr>
+      <th>326</th>
+      <td>University of California Berkeley</td>
+      <td>14.559997</td>
+    </tr>
+    <tr>
+      <th>327</th>
+      <td>New York University</td>
+      <td>14.147602</td>
+    </tr>
+    <tr>
+      <th>328</th>
+      <td>University of Texas at El Paso</td>
+      <td>13.887608</td>
+    </tr>
+    <tr>
+      <th>329</th>
+      <td>Georgetown University</td>
+      <td>13.711348</td>
+    </tr>
+    <tr>
+      <th>330</th>
+      <td>Binghammton University</td>
+      <td>13.562860</td>
+    </tr>
+    <tr>
+      <th>331</th>
+      <td>Texas A&amp;M University</td>
+      <td>13.381543</td>
+    </tr>
+    <tr>
+      <th>332</th>
+      <td>Evergreen State College</td>
+      <td>13.294709</td>
+    </tr>
+    <tr>
+      <th>333</th>
+      <td>American University</td>
+      <td>13.238660</td>
+    </tr>
+    <tr>
+      <th>334</th>
+      <td>University Of Chicago</td>
+      <td>12.878827</td>
+    </tr>
+    <tr>
+      <th>335</th>
+      <td>Syracuse University</td>
+      <td>10.449262</td>
+    </tr>
+    <tr>
+      <th>336</th>
+      <td>University of Southern California</td>
+      <td>9.932400</td>
+    </tr>
+    <tr>
+      <th>337</th>
+      <td>Louisiana State University</td>
+      <td>9.812346</td>
+    </tr>
+    <tr>
+      <th>338</th>
+      <td>University of Utah</td>
+      <td>9.742760</td>
+    </tr>
+    <tr>
+      <th>339</th>
+      <td>Oberlin College</td>
+      <td>8.319160</td>
+    </tr>
+  </tbody>
+</table>
+				<p id="notAtHome">Top 10 US News colleges relative to each other</p>
+				<p><img src="{{ url_for('static', filename='top10College.jpg') }}" alt="Not Home"/></p>
+				<div>
+					<form method="post" action="{{ url_for('collegeRank') }}">
+						<fieldset>
+							<legend>Make College Chart or Add/Remove Colleges</legend>
+							<div>
+								<br/>
+								<label for="loadCollege" class="addCollege">Load New Colleges (Separate by commas)</label>
+								<input type="text" name="loadCollege" id="loadCollege"/>
+							</div>
+							<div>
+								<br/>
+								<label for="deleteCollege" class="addCollege">Delete Colleges (Separate by commas)</label>
+								<input type="text" name="deleteCollege" id="deleteCollege"/>
+							</div>
+							<div>
+								<br/>
+								<label for="makeChart" class="addCollege">Make New Chart (Separate by commas)</label>
+								<input type="text" name="makeChart" id="makeChart"/>
+							</div>
+							<div class="buttonarea">
+								<input type="submit" value="Run Program"/>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+				<p><img src="{{ url_for('static', filename='customChart0.png') }}" alt="Make New Chart" id="makeChart"/></p>
+				<br/>
+				<p id="notAtHome">Don't do this at home kids.</p>
+				<p>I got blocked from US News from web scraping it.</p>
+				<p><img src="{{ url_for('static', filename='banned.jpg') }}" alt="Not Home"/></p>
+				<br/>	
+			</body>
+		</html>
+		

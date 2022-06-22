@@ -1,0 +1,32 @@
+
+		<!DOCTYPE html>
+		<html>
+			<head>
+				<title>News Ranker</title>
+				<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}"/>
+			</head>
+			<body>
+				<div id="top">
+					<ol>
+						<li><a href="../collegeRank">Jack's News Ranker</a></li>
+						<li><a href="../otherStuff/">Survey</a></li>
+						<li>Extra Data</li>
+						<li><a href="../extraData/">Ian Stuff</a></li>
+					</ol>
+				</div>
+				<div id="marginleft">
+				</div>
+				<p  id="first">Extra Data.</p>
+				<div>
+					<form method="post" action="{{ url_for('iStuff') }}">
+						<fieldset>
+							<legend>Extra Data</legend>
+							<div class="buttonarea">
+								<input type="submit" value="Run Program"/>
+							<br/>
+						</fieldset>
+					</form>
+				</div>	
+			</body>
+		</html>
+		
