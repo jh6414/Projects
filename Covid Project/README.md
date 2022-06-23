@@ -7,7 +7,6 @@ https://colab.research.google.com/drive/1b7bi2Ict4eMQoFwXOWcgzZPM9sLAK-Lq?usp=sh
 **Sample images generated from project:** </br></br>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179733-4f69f87c-715a-422e-8a05-b876118e353a.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179751-4c7b50f9-b225-4a7b-a24b-4557a672c60e.png">
-<img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179760-f3f16e0e-d80b-4a60-8452-7de9a758aab7.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179776-e4d4695c-a080-4922-b44b-ce5c3cfacf1a.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179789-41c7e597-93b9-4641-9308-a9df02cfce60.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179795-8c3fda2b-6585-4aeb-b705-60c2baddeab0.png">
