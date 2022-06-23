@@ -22,7 +22,7 @@ https://colab.research.google.com/drive/1b7bi2Ict4eMQoFwXOWcgzZPM9sLAK-Lq?usp=sh
 <img width="398" alt="image" src="https://user-images.githubusercontent.com/108026776/175183796-c6c435f5-79f9-4c6b-ba0a-fa9b8884c55a.png">
 <img width="396" alt="image" src="https://user-images.githubusercontent.com/108026776/175183820-f76d51cf-11d6-4aae-a005-4b8748b9b266.png">
 <img width="389" alt="image" src="https://user-images.githubusercontent.com/108026776/175183802-4271f77c-55bd-4b1d-ac54-5d34edf6412c.png">
-
+![newplot](https://user-images.githubusercontent.com/108026776/175283881-486c8605-da73-4aa1-968a-7d0d462dc265.png)
 
 
 
