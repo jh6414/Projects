@@ -20,8 +20,5 @@ https://colab.research.google.com/drive/1b7bi2Ict4eMQoFwXOWcgzZPM9sLAK-Lq?usp=sh
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179870-0714207e-f62b-4f3a-ba17-8852501dd901.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179878-e5e33c60-c32f-45b1-9d4a-953731ac3e2f.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179886-12151e72-6c9f-495c-9881-9175239dfad9.png">
-<img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179892-3e02284d-291d-4c46-9a44-0ba62cd3dc71.png">
-<img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179901-8eab654c-6366-471f-bdf0-57cbccc859e2.png">
-<img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179909-3ff30ab4-7d6b-4122-81b7-0b74d246db04.png">
-<img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179916-00e25ac7-e9a2-4a45-a88f-1cb2e53ecb42.png">
+
 
