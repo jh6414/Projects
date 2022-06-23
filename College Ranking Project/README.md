@@ -7,7 +7,8 @@ https://drive.google.com/file/d/1gPdU6dSi4tUSwIrznOXolbb10s5qrxGh/view?usp=shari
 
 
 
-Sample images of project: </br></br>
+Sample images of project: </br>
+Rankings generated from scraping the web:</br>
 
 <img width="793" alt="Screen Shot 2022-06-22 at 4 04 19 PM" src="https://user-images.githubusercontent.com/108026776/175181040-4acd60bf-90d7-4b10-a4a7-32a09fa8ca75.png">
 <img width="1102" alt="Screen Shot 2022-06-22 at 4 04 38 PM" src="https://user-images.githubusercontent.com/108026776/175181049-6f20a735-71b2-4f98-bd15-806ac8053445.png">
