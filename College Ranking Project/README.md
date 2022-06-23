@@ -11,8 +11,8 @@ Sample images of project: </br>
 Rankings generated from scraping the web:</br>
 
 <img width="793" alt="Screen Shot 2022-06-22 at 4 04 19 PM" src="https://user-images.githubusercontent.com/108026776/175181040-4acd60bf-90d7-4b10-a4a7-32a09fa8ca75.png">
-<img width="1186" alt="Screen Shot 2022-06-22 at 4 07 03 PM" src="https://user-images.githubusercontent.com/108026776/175181059-234fabab-b49f-486e-8045-8fc856d5273f.png">
 <img width="1102" alt="Screen Shot 2022-06-22 at 4 04 38 PM" src="https://user-images.githubusercontent.com/108026776/175181049-6f20a735-71b2-4f98-bd15-806ac8053445.png">
+<img width="1186" alt="Screen Shot 2022-06-22 at 4 07 03 PM" src="https://user-images.githubusercontent.com/108026776/175181059-234fabab-b49f-486e-8045-8fc856d5273f.png">
 
 <img width="993" alt="Screen Shot 2022-06-22 at 4 07 50 PM" src="https://user-images.githubusercontent.com/108026776/175181084-1d31903a-611f-4b71-870f-a37c68debd21.png">
 
