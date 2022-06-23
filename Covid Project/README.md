@@ -4,6 +4,8 @@ https://colab.research.google.com/drive/1b7bi2Ict4eMQoFwXOWcgzZPM9sLAK-Lq?usp=sh
 
 **Main File: GroupProjectSocialNetwork.ipynb**
 
+**Summary: Fall2020_3_Report.docx**
+
 **Sample images generated from project:** </br></br>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179733-4f69f87c-715a-422e-8a05-b876118e353a.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179751-4c7b50f9-b225-4a7b-a24b-4557a672c60e.png">
