@@ -22,11 +22,10 @@ Rankings generated from scraping the web:</br>
 
 
 <img width="726" alt="Screen Shot 2022-06-22 at 4 08 31 PM" src="https://user-images.githubusercontent.com/108026776/175181118-1faefa08-7454-4719-9ae1-4d76c74704d2.png">
-
+<img width="784" alt="Screen Shot 2022-06-22 at 4 08 45 PM" src="https://user-images.githubusercontent.com/108026776/175181146-d2b106b2-6312-478e-bb4a-dfd26ce64192.png">
 <img width="585" alt="Screen Shot 2022-06-22 at 4 11 18 PM" src="https://user-images.githubusercontent.com/108026776/175181136-e176a248-1c89-4075-b0ec-20d277886a3b.png">
 <img width="745" alt="Screen Shot 2022-06-22 at 4 10 57 PM" src="https://user-images.githubusercontent.com/108026776/175181159-f281963d-e4d9-4c3f-9193-ce53840291f2.png">
 
-<img width="784" alt="Screen Shot 2022-06-22 at 4 08 45 PM" src="https://user-images.githubusercontent.com/108026776/175181146-d2b106b2-6312-478e-bb4a-dfd26ce64192.png">
 
 
 
