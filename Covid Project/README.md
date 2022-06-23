@@ -17,6 +17,11 @@ https://colab.research.google.com/drive/1b7bi2Ict4eMQoFwXOWcgzZPM9sLAK-Lq?usp=sh
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179843-ba49d8cb-a813-4818-9b0f-82d381d8ccfd.png">
 <img width="415" alt="image" src="https://user-images.githubusercontent.com/108026776/175179856-1858afc4-a7bd-4613-8f7b-ab8c6b24f7e9.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179870-0714207e-f62b-4f3a-ba17-8852501dd901.png">
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175183757-0587d909-20ee-43c2-801a-8db9f50d6b9d.png">
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175183785-e4c0bc46-e0e2-4e65-96f3-1bc607293692.png">
+<img width="398" alt="image" src="https://user-images.githubusercontent.com/108026776/175183796-c6c435f5-79f9-4c6b-ba0a-fa9b8884c55a.png">
+<img width="389" alt="image" src="https://user-images.githubusercontent.com/108026776/175183802-4271f77c-55bd-4b1d-ac54-5d34edf6412c.png">
+<img width="396" alt="image" src="https://user-images.githubusercontent.com/108026776/175183820-f76d51cf-11d6-4aae-a005-4b8748b9b266.png">
 
 
 
