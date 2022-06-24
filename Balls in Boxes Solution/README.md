@@ -9,6 +9,7 @@ Suppose that you have 2 identical balls and 2 empty boxes. You randomly put ever
           ^.        ^
   [2][0]. [1][1]. [1][1]. [0][2]
 
+
 P(11) = 0.5 P(20) = .25 P(02) = .25
 
 P(max number of balls is 1) = .5
