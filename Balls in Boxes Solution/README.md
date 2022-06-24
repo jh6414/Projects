@@ -5,7 +5,7 @@ Suppose that you have 2 identical balls and 2 empty boxes. You randomly put ever
 
                              [0][0]
                                ^
-                        [1][0].  [0][1]   
+                      [1][0].    [0][1]   
                      ^.                ^.
                [2][0]. [1][1].   [1][1]. [0][2].
 
