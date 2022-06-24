@@ -5,7 +5,7 @@ dictionaryFile.txt can be found at:
 
 https://drive.google.com/file/d/1gPdU6dSi4tUSwIrznOXolbb10s5qrxGh/view?usp=sharing
 
-Visualizations: 
+Visuals: 
 
 
  ![image](https://user-images.githubusercontent.com/108026776/175459445-35fdc576-cce2-4555-a6e1-07499ff0afd9.png)
