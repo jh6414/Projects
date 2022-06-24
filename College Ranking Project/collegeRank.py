@@ -211,8 +211,8 @@ def collegeRank():
 				if len(link) > 12 and link[0:11] == "./articles/":
 					titleUrlString = "https://news.google.com" + link[1:]
 					thisBool = 1 == 1
-					for ent123 in urlList:
-						if ent123 == titleUrlString:
+					for urlItemLink in urlList:
+						if urlItemLink == titleUrlString:
 							thisBool = 1 == 2
 					if len(urlList) > 0 and thisBool:
 						urlList.append(titleUrlString)
