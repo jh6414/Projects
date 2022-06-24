@@ -7,7 +7,7 @@ Suppose that you have 2 identical balls and 2 empty boxes. You randomly put ever
                                ^
                         [1][0].  [0][1]   
                      ^.                ^.
-               [2][0]. [1][1]. [1][1]. [0][2].
+               [2][0]. [1][1].   [1][1]. [0][2].
 
 
 P(11) = 0.5 P(20) = .25 P(02) = .25
