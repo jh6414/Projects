@@ -1,6 +1,6 @@
 # Full version with loaded charts can be found at:
 
-https://colab.research.google.com/drive/1b7bi2Ict4eMQoFwXOWcgzZPM9sLAK-Lq?usp=sharing
+https://colab.research.google.com/drive/1_7JPa9QDOsiB7TtpFL0xMPFPL4lAU-cB?usp=sharing
 
 **Main File: GroupProjectSocialNetwork.ipynb**
 
