@@ -27,9 +27,9 @@ Same question: Suppose that you have 3 sided die and roll the die 3 empty times.
 
 The binomial formula gets (1-(1/27))^3=0.892. This is close to the right answer, but not right because a binomial distribution requires the boxes to be independed of one another, and with 3 boxes or a 3 sided die, they are not. 
 
-The correct answer to this is 1 - 3/27 = 0.88888888888888
+The correct answer to this is 1 - P(300) - P(030) - P(003) = 1 - 1/27 - 1/27 - 1/27 = 1 - 3/27 = 1 - 1/9 = 0.88888888888888
 
-Possible Outcomes:
+Ways an event can happen:
 
 P(300) = 1/27 </br>
 B -> 1 0 0 </br>
