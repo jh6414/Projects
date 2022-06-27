@@ -15,7 +15,7 @@ P(11) = 0.5 P(20) = .25 P(02) = .25
 
 P(max number of balls is 1) = .5
 
-Note: Number of outcomes that meet conditions / Number of outcomes = 1/3, this is wrong as it assumes all outcomes have the same probability of happening. This error has constantly been made my mathematicians throughout history (Bose's "error").
+Note: Number of outcomes that meet conditions / Number of outcomes = 1/3, this is wrong as it assumes all outcomes have the same probability of happening. This error has constantly been made by mathematicians throughout history (Bose's "error").
 
 You may also notice this looks similar to a binomial distribution, or a coin flip where box 1 is heads and box 2 is tails and number of balls is number of trials. This is correct. So why not just use the binomial formula? 
 
