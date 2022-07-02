@@ -1,6 +1,5 @@
-
-# Results: Fall2020_3_Report.pdf </br> 
 # Main File: GroupProjectSocialNetwork.ipynb
+# Results: Fall2020_3_Report.pdf
 
 **Full version with loaded charts can be found at:**
 
