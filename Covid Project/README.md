@@ -1,10 +1,9 @@
-# Full version with loaded charts can be found at:
+
+# Summary / Results: Fall2020_3_Report.pdf and Main File: GroupProjectSocialNetwork.ipynb
+
+**Full version with loaded charts can be found at:**
 
 https://colab.research.google.com/drive/1_7JPa9QDOsiB7TtpFL0xMPFPL4lAU-cB?usp=sharing
-
-**Main File: GroupProjectSocialNetwork.ipynb**
-
-**Summary / Results: Fall2020_3_Report.pdf**
 
 **Sample images generated from project:** </br></br>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179733-4f69f87c-715a-422e-8a05-b876118e353a.png">
