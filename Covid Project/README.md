@@ -1,7 +1,7 @@
 # Main File: GroupProjectSocialNetwork.ipynb
 # Results: Fall2020_3_Report.pdf
 
-**Full version with loaded charts: (might take a minute to load):**</br>
+**Full version with loaded charts: (might take a minute to load)**</br>
 **https://colab.research.google.com/drive/1_7JPa9QDOsiB7TtpFL0xMPFPL4lAU-cB?usp=sharing**
 
 </br>Sample images: </br></br>
