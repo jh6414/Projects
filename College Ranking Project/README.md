@@ -1,4 +1,4 @@
-**Main File: collegeRank.py**
+# Main File: collegeRank.py
 
 
 dictionaryFile.txt can be found at:
