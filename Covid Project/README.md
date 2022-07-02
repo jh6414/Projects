@@ -3,7 +3,7 @@
 </br>
 **Full version with loaded charts: (might take a minute to load):**</br>
 **https://colab.research.google.com/drive/1_7JPa9QDOsiB7TtpFL0xMPFPL4lAU-cB?usp=sharing**
-</br>
+
 Sample images generated from project: </br></br>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179733-4f69f87c-715a-422e-8a05-b876118e353a.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108026776/175179751-4c7b50f9-b225-4a7b-a24b-4557a672c60e.png">
