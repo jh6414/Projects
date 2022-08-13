@@ -29,7 +29,11 @@ The binomial formula gets (1-(1/27))^3=0.892. This is close to the right answer,
 
 The correct answer to this is 1 - P(300) - P(030) - P(003) = 1 - 1/27 - 1/27 - 1/27 = 1 - 3/27 = 1 - 1/9 = 0.88888888888888
 
-Ways an event can happen:
+Ways an event can happen:</br></br>
+
+P(300)=P(003)=P(030)=1/27 </br>
+P(120)=P(102)=P(012)=P(210)=P(201)=P(021)=3/27 </br>
+P(111) = 6/27 </br></br>
 
 P(300) = 1/27 </br>
 B -> 1 0 0 </br>
@@ -98,17 +102,17 @@ B -> 0 1 0 </br>
 B -> 0 1 0 </br>
 B -> 0 0 1 </br>
  </br> </br>
-P(201) = 3/27 </br>
+P(012) = 3/27 </br>
 B -> 0 0 1 </br>
-B -> 1 0 0 </br>
-B -> 1 0 0 </br>
- </br>
-B -> 1 0 0 </br>
 B -> 0 0 1 </br>
-B -> 1 0 0 </br>
+B -> 0 1 0 </br>
  </br>
-B -> 1 0 0 </br>
-B -> 1 0 0 </br>
+B -> 0 0 1 </br>
+B -> 0 1 0 </br>
+B -> 0 0 1 </br>
+ </br>
+B -> 0 1 0 </br>
+B -> 0 0 1 </br>
 B -> 0 0 1 </br>
  </br> </br>
 P(210) = 3/27 </br>
