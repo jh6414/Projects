@@ -23,7 +23,7 @@ You could use the binomial formula to calculate this answer and would get the sa
 
 Suppose that you have 3 identical balls and 3 empty boxes. You randomly put every ball into some box. What is the probability that one box will contain all 3 balls?
 
-Same question: Suppose that you have 3-sided die and roll the die 3 times. What is the probability that all three rolls will be the same?
+Same Question Conceptually: Suppose that you have 3-sided die and roll the die 3 times. What is the probability that all three rolls will be the same?
 
 The binomial formula gets (1-(1/27))^3=0.892. This is close to the right answer, but not right because a binomial distribution requires the boxes to be independent of one another, and with 3 boxes or a 3-sided die, they are not. 
 
